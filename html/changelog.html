@@ -1,0 +1,694 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+  <title>Список изменений сервера Chaotic Onyx</title>
+  <link rel="stylesheet" type="text/css" href="changelog.css">
+  <base target="_blank" />
+  <script type='text/javascript'>
+
+	function changeText(tagID, newText, linkTagID){
+		var tag = document.getElementById(tagID);
+		tag.innerHTML = newText;
+		var linkTag = document.getElementById(linkTagID);
+		linkTag.removeAttribute("href");
+		linkTag.removeAttribute("onclick");
+	}
+
+  </script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+
+<body>
+<table align='center' width='650'><tr><td>
+<table align='center' class="top">
+	<tr>
+		<td valign='top'>
+			<div align='center'><font size='3'><b>Список изменений сервера Chaotic Onyx</b></font></div>
+
+		<p><div align='center'><font size='3'><a href="http://wiki.baystation12.net/">Вики Bay12</a> | <a href="https://github.com/Rampoch/Chaotic-Onyx/">Репозиторий</a></font></div></p>
+			</td>
+	</tr>
+</table>
+	<div class="commit sansserif">
+    <h2 class="date">31 Jule 2018</h2>
+      <h3 class="author">KreeperHLC updated:</h3>
+      <ul class="changes bgimages16">
+        <li class="rscadd">Добавил скорость предметам для хирургии. Теперь различия между тремя лазерными скальпелями действительно есть.</li>
+        <li class="rscadd">Добавил новые хирургические инструменты в РнД. В том числе плазмопилу и инструмент, который заживляет кость за один клик.</li>
+        <li class="rscadd">Старые медкровати по задумке должны были не вмещаться в рюкзак, но Бейцы опять всё сломали. Починил это. Добавил улучшенные кровати в РнД, которые можно пачками пихать в рюкзаки.</li>
+      </ul>
+
+      <h3 class="author">Rodial updated:</h3>
+      <ul class="changes bgimages16">
+        <li class="tweak">Починил некоторые проблемы с Вортекс-Манипулятором и немного переделал систему отражений и рикошетов. Теперь стена забирает часть энергии выстрела на себя.</li>
+      </ul>
+
+    <h2 class="date">30 Jule 2018</h2>
+      <h3 class="author">Rodial updated:</h3>
+      <ul class="changes bgimages16">
+        <li class="rscadd">Добавил систему отражения лучей от стен и рикошета пуль.</li>
+        <li class="rscadd">Добавил Вортекс-Манипулятор - очень мощное устройство, с помощью которого можно манипулировать пространством. Становится доступным на высоких уровнях исследований.</li>
+        <li class="bugfix">Починил баг, из-за которого всегда засчитывалась победа культа.</li>
+      </ul>
+
+      <h3 class="author">MalinaBoy updated:</h3>
+      <ul class="changes bgimages16">
+        <li class="maptweak">Обновил карту гетто.<br>
+      </ul>
+
+      <h3 class="author">DeadPhilosof updated:</h3>
+      <ul class="changes bgimages16">
+        <li class="tweak">Увеличил время активации армблейда и деад-стинга.</li>
+        <li class="bugfix">Починил баг, связанный с особенностями строения чейнджей.</li>
+      </ul>
+
+    <h2 class="date">25 Jule 2018</h2>
+      <h3 class="author">hekko4 updated:</h3>
+      <ul class="changes bgimages16">
+        <li class="maptweak">В шкафах у сотрудников службы безопасности теперь лежат тактические тайзеры.<br>
+          <font color=red><b>Внимание!</b></font> Его нужно регистрировать на себя карточкой, чтобы главы могли потом включить летальный режим на нем.</li>
+        <li class="maptweak">Добавил в оружейную: две штурмовые винтовки, две пачки с осколочными гранатами, четыре рожка для штурмовых винтовок.</li>
+        <li class="maptweak">Заменил обычные бронижиллеты в оружейной на модульные (плейт кэрриеры).</li>
+        <li class="maptweak">Добавил термальные очки ХоСу в шкаф.</li>
+        <li class="maptweak">ХоПу в шкаф вернулся энергопитолет, вместо хлопушки.</li>
+        <li class="maptweak">В холодильник операционной добавил немного мяса.</li>
+        <li class="tweak">Разнерфил мясорубку на кухне.</li>
+      </ul>
+
+      <h3 class="author">straelok updated:</h3>
+      <ul class="changes bgimages16">
+        <li class="bugfix">Мыши, ИИ и прочие не-люди больше не могут проверять пульс.</li>
+      </ul>
+
+      <h3 class="author">LagannPM updated:</h3>
+      <ul class="changes bgimages16">
+        <li class="rscadd">Ремонтным дронам добавлен T-Ray сканнер.</li>
+        <li class="bugfix">Визор в риге СЕ теперь защищает от излучения суперматерии (если включен).</li>
+        <li class="bugfix">При ударах по камерам теперь будут воспроизводится правильные звуки.</li>
+      </ul>
+
+    <h2 class="date">22 Jule 2018</h2>
+      <h3 class="author">KreeperHLC updated:</h3>
+      <ul class="changes bgimages16">
+        <li class="rscadd">Добавлены новые мобы для астероида: Голиаф, Василиск, Луркер. Будут добавлены на карту в следующих апдейтах.</li>
+        <li class="rscadd">Некоторые мобы теперь умеют стрелять.</li>
+        <li class="rscadd">Обновил интерфейс РнД-консоли. Теперь можно создавать сразу несколько механизмов сразу и фильтровать список по категориям.</li>
+      </ul>
+
+      <h3 class="author">hekko4 updated:</h3>
+      <ul class="changes bgimages16">
+        <li class="rscadd">Добавил в арсенал ионные пистолеты.</li>
+        <li class="rscadd">Заменены энергопистолеты в арсенале, теперь его нужно регистрировать с помощью карточки. Варден, ХоС, Капитан и все те у кого есть доступ к программе "Use Of Force Authorization Manage" могут узнать, где находится оружие, кто является владельцем и соответственно выдавать/забирать доступ к какому-либо режиму у оружия. В будущих обновлениях, вероятно, заменим все тайзеры охраны на энергопистолеты.</li>
+        <li class="maptweak">На нижний уровень возле комнаты с атмосом добавил комнату с телекоммуникационным реле. Теперь оно будет отвечать за работу рации на станции. Не путать с интеркомами. Это временное решение.</li>
+        <li class="maptweak">Добавил в комнату СЕ особую кнопку, которая нужна для поднятия укрепленной двери в комнате с телекоммуникационном реле.</li>
+        <li class="maptweak">Вернул теплообменники в токсины.</li>
+        <li class="maptweak">Исправил отсутствие кнопок у шлюзов снаружи станции.</li>
+        <li class="maptweak">Исправлена зона оружейной, теперь она не привязана к кабинету Вардена.</li>
+        <li class="maptweak">В общежитии больше нельзя укрыться от радиации.</li>
+      </ul>
+
+      <h3 class="author">DeadPhilosof updated:</h3>
+      <ul class="changes bgimages16">
+        <li class="tweak">Армблейд понерфлен: Теперь у активации армблейда есть задержка. Начало активации всем видно.</li>
+        <li class="tweak">Дедстинг улучшен: Теперь спавнит через несколько тиков смертельную дозу цианида. Вы можете успеть что то крикнуть. Доза такова, что вы не умрете сразу.</li>
+        <li class="tweak">Генокрады теперь имеют особенности в строении тела, которые позволяют им выживать в большем количестве экстремальных ситуаций.</li>
+      </ul>
+
+      <h3 class="author">Plin updated:</h3>
+      <ul class="changes bgimages16">
+        <li class="bugfix">Починил force экстренного шаттла.</li>
+      </ul>
+
+    <h2 class="date">10 Jule 2018</h2>
+      <h3 class="author">Epicus and NyanCommissar updated:</h3>
+      <ul class="changes bgimages16">
+        <li class="bugfix">Добавлено огромное количество пропавших спрайтов. Наборы спрайтов автоматически сгенерированы скриптом - могут быть косяки.</li>
+      </ul>
+
+      <h3 class="author">hekko4 updated:</h3>
+      <ul class="changes bgimages16">
+        <li class="maptweak">Изменил лабраторию исследователей форона.</li>
+        <li class="maptweak">Добавил комнату отдыха в РнД.</li>
+        <li class="bugfix">Мелкие фиксы карты.</li>
+      </ul>
+
+      <h3 class="author">LagannPM updated:</h3>
+      <ul class="changes bgimages16">
+        <li class="bugfix">В микроволновку теперь можно запихать стак, размером в одну единицу.</li>
+        <li class="bugfix">Починил звук скалки.</li>
+      </ul>
+
+      <h3 class="author">Error777 updated:</h3>
+      <ul class="changes bgimages16">
+        <li class="tweak">Теперь в лоадауте можно выбрать любой цвет кепки.</li>
+        <li class="bugfix">Починил спрайт голема.</li>
+      </ul>
+
+
+    <h2 class="date">02 Jule 2018</h2>
+      <h3 class="author">DeadPhilosof updated:</h3>
+      <ul class="changes bgimages16">
+        <li class="rscadd">Генокрадам добавлены новые способности.</li>
+      </ul>
+
+      <h3 class="author">KreeperHLC updated:</h3>
+      <ul class="changes bgimages16">
+        <li class="rscadd">Добавлены новые виды комнатных растений.</li>
+        <li class="tweak">Растения теперь умирают от взрывов, пуль и небрежного отношения к ним.</li>
+        <li class="tweak">Небольшие изменения баланса для нового шахтерского автомата.</li>
+      </ul>
+
+    <h2 class="date">28 June 2018</h2>
+      <h3 class="author">Error777 updated:</h3>
+      <ul class="changes bgimages16">
+        <li class="rscadd">В игру добавлен режим Мемо. В секрете его пока нет, будем тестировать.</li>
+        <li class="bugfix">Починил баг, из-за которого в чате иногда появлялась странная цифра "3".</li>
+        <li class="bugfix">Больше хваталкой научного киборга нельзя дюпать вещи.</li>
+      </ul>
+
+      <h3 class="author">SweetYogurt updated:</h3>
+      <ul class="changes bgimages16">
+        <li class="tweak">Печень перенесена из задницы в туловище.</li>
+        <li class="bugfix">Починил кодировку в карго-консоли.</li>
+      </ul>
+       
+      <h3 class="author">hekko4 updated:</h3>
+      <ul class="changes bgimages16">
+        <li class="maptweak">На карту добавлены шахтерские автоматы.</li>
+        <li class="maptweak">Дедсквад больше не будет телепортироваться на станцию.</li>
+        <li class="bugfix">Различные фиксы потолков, шлюзов зон и прочего.</li>
+        <li class="bugfix">Починил эскейп поды.</li>
+      </ul>
+
+      <h3 class="author">Epicus updated:</h3>
+      <ul class="changes bgimages16">
+        <li class="tweak">Педальные внушения теперь могут выглядеть гораздо интереснее.</li>
+        <li class="tweak">Из режима революция удалены Лоялисты.</li>
+      </ul>
+
+    <h2 class="date">21 June 2018</h2>
+      <h3 class="author">Epicus updated:</h3>
+      <ul class="changes bgimages16">
+        <li class="rscadd">Добавил джоббан на расы.</li>
+        <li class="rscadd">Починил автохисс для рас.</li>
+        <li class="tweak">Отключил все вайтлисты - теперь можно свободно играть за любую из трех рас: Таяряне, Унати и Скреллы.</li>
+      </ul>
+      <font size='2'><font color=red><b>Внимание!</b></font> Данное обновление вносит расы в игру. Напоминаем, что перед игрой за них, стоит ознакомиться с <a href="https://wiki.ss13.ru/index.php?title=Chaotic_Onyx_Backstory">предысторией</a> сервера и конкретным описанием выбранной расы. За персонажей-ксеносов, которые отличаются от людей лишь спрайтом, будем выписывать <b>джоббаны</b> на расы.</font>
+
+    <h2 class="date">15 June 2018</h2>
+      <h3 class="author">KreeperHLC updated:</h3>
+      <ul class="changes bgimages16">
+        <li class="rscadd">Добавил огромное количество новых предметов для шахтеров.</li>
+        <li class="rscadd">Теперь за руду можно получать очки, которые обмениваются на различные предметы.</li>
+      </ul>
+
+      <h3 class="author">Error777 updated:</h3>
+      <ul class="changes bgimages16">
+        <li class="rscadd">Добавил баны на OOC-чаты.</li>
+      </ul>
+
+      <h3 class="author">NyanCommissar updated:</h3>
+      <ul class="changes bgimages16">
+        <li class="bugfix">Починил отображение аксессуаров на персонажах.</li>
+      </ul>
+
+    <h2 class="date">11 June 2018</h2>
+      <h3 class="author">Epicus updated:</h3>
+      <ul class="changes bgimages16">
+        <li class="tweak">Законы ИИ и обслуживающих дронов изменены под нашу вики.</li>
+        <li class="bugfix">Исправил баг, из-за которого матчмейкинг создавал отношения с ролями, типа магов.</li>
+      </ul>
+
+    <h2 class="date">8 June 2018</h2>
+      <h3 class="author">hekko4 updated:</h3>
+      <ul class="changes bgimages16">
+        <li class="rscadd">Добавил пианино в бар.</li>
+        <li class="rscadd">Добавил мониторы в машинный отсек и медбей.</li>
+        <li class="maptweak">Переделал отбытие и эвакуационный шаттл.</li>
+        <li class="maptweak">Переделал машинный отсек.</li>
+        <li class="maptweak">Переделал шаттл Syndicate-Commando.</li>
+        <li class="bugfix">Починил все сломанные шаттлы.</li>
+        <li class="bugfix">Починил огромное количество косяков карты, включая различные шлюзы.</li>
+        <li class="bugfix">Починил потолки местами, где они были кривыми. Например, в хранилище (Vault).</li>
+		    <li class="bugfix">Поправил спрайт с космосом в полете, теперь шаттлы не будут лететь задом-наперед.</li>
+      </ul>
+      
+      <h3 class="author">Epicus updated:</h3>
+      <ul class="changes bgimages16">
+        <li class="bugfix">Починил глаза ящерам.</li>
+        <li class="bugfix">Починил дефолтные цвета кожи расам + добавил соответствующие дополнительные языки по дефолту.</li>
+      </ul>
+	  
+    <h2 class="date">4 June 2018</h2>
+      <h3 class="author">Epicus and Plin updated:</h3>
+      <ul class="changes bgimages16">
+        <li class="tweak">Серьезно улучшили Epic Anti-Multiaccount System, так что теперь почти не должно быть ложных срабатываний.</li>
+        <li class="rscadd">Педали получили больше возможностей для того, чтобы найти вас ИРЛ и рассказать вам про правила.</li>
+      </ul>
+
+      <h3 class="author">hekko4 updated:</h3>
+      <ul class="changes bgimages16">
+        <li class="bugfix">Починил кривой шлюз на входе в аутпост шахтеров.</li>
+      </ul>
+
+      <h3 class="author">LagannPM updated:</h3>
+      <ul class="changes bgimages16">
+        <li class="maptweak">Переделал базу торговца.</li>
+        <li class="bugfix">Починил шаттл торгоца.</li>
+      </ul>
+
+    <h2 class="date">Глобальное весеннее обновление</h2>
+    <div class="merge">
+        <h3 class="author">Новый атмосферный отсек от Dnivji:</h3>
+        <ul class="changes bgimages16">
+          <li class="maptweak">Двухуровневый, более компактный и простой в освоении атмос.</li>
+          <li class="rscadd">На карту добавлен новый газ - водород. Пока только в атмосферном отсеке.</li>
+        </ul>
+
+        <h3 class="author">Новая робототехника от LagannPM:</h3>
+        <ul class="changes bgimages16">
+          <li class="maptweak">В робототехнике теперь есть операционная, засчет уменьшения размеров ангара.</li>
+          <li class="rscadd">Новый настенный анестезионный аппарат, вместо старого баллона.</li>
+          <li class="rscadd">Теперь все операционные инструменты компактно сложены в специальный ящик.</li>
+        </ul>
+
+        <h3 class="author">Новый бар от LagannPM:</h3>
+        <ul class="changes bgimages16">
+          <li class="maptweak">Бар полностью переделан - теперь барная стойка расположена в другом месте и выглядит он совершенно иначе!</li>
+        </ul>
+
+        <h3 class="author">Epicus наконец включил расы в игру:</h3>
+        <ul class="changes bgimages16">
+          <li class="rscadd">Теперь для игры доступны три стандартные расы: Таяряне, Унати и Скреллы.</li>
+          <li class="tweak">На короткий тестовый период игра за расы ограничена внутриигровым вайтлистом - пинайте педалей, чтобы получить доступ на 1 раунд.</li>
+          <li class="tweak">Добавлены ограничения на профессии для рас, согласно wiki.ss13.ru.</li>
+        </ul>
+
+        <h3 class="author">Другие изменения:</h3>
+        <h3 class="author">LagannPM</h3>
+        <ul class="changes bgimages16">
+          <li class="rscadd">Починил роботов и вернул их в игру. Офицер Бипски вновь может оказаться у вас за спиной в самый неподходящий момент.</li>
+          <li class="bugfix">Починил муллботов и бесмертие всем типам роботов.</li>
+          <li class="bugfix">Вирус Грейтайда теперь выносит вообще все двери в бриге.</li>
+          <li class="bugfix">Убрал черный экран в конце игры.</li>
+        </ul>
+
+        <h3 class="author">hekko4</h3>
+        <ul class="changes bgimages16">
+          <li class="rscadd">Распилил нижний уровень на кучу различных зон - теперь дыра в одной части гетто не будет вызывать тревогу по всей карте.</li>
+          <li class="bugfix">Убрал нерабочие огромные стационарные срабберы из токсинов и брига.</li>
+          <li class="bugfix">Огромное количество небольших фиксов различных косяков карты.</li>
+        </ul>
+
+        <h3 class="author">Epicus7</h3>
+        <ul class="changes bgimages16">
+          <li class="bugfix">Починил отображение различной одежды, которая одевается на слот груди (аксессуары и сигареты тоже скоро починю).</li>
+          <li class="bugfix">Выпилил дисбалансный скилл у ящеров.</li>
+        </ul>
+
+        <h3 class="author">FighterX2500</h3>
+        <ul class="changes bgimages16">
+          <li class="tweak">Фортепьяно теперь может проигрывать музыку, состоящую из бОльшего количества строк (300 вместо 50).</li>
+        </ul>
+
+        <h3 class="author">Plin</h3>
+        <ul class="changes bgimages16">
+          <li class="bugfix">Теперь шаттлы можно зафорсить авторизацией в случаях, когда раньше писало "The console buzzes. It does not appear to be accepting any commands.".</li>
+        </ul>
+    </div>
+
+    <h2 class="date">12 May 2018</h2>
+      <h3 class="author">LagannPM updated:</h3>
+      <ul class="changes bgimages16">
+        <li class="maptweak">Переделал роботехнику.</li>
+		    <li class="maptweak">Переделал ангар мехов.</li>
+        <li class="rscadd">Добавил диспенсер анестетика в операционную роботеха(тестовая фича). Перетягивайте иконку диспенсера на пациента. Маска стягивается автоматически</li>
+		    <li class="bugfix">Пофиксил баг с невидимой маской у настенного насоса кислорода.</li>
+        <li class="rscadd">Фабрикатор в роботехе выплёвывает предметы справа от него.</li>
+        <li class="maptweak">Добавил пожарную тревогу в токсины.</li>
+        <li class="maptweak">Подвинул пожарную тревогу в ксенобиологии.</li>
+        <li class="maptweak">Добавил отсутствующие пожарные шаттры в рд и ксенобиологии.</li>
+        <li class="maptweak">Добавил подставку под отверту и гаечный ключ в токсинах.</li>
+		    <li class="maptweak">Добавил 2 лампочки в рессепшн медбея.</li>
+		    <li class="maptweak">Добавил шкавчик с пакетами крови в хранилище медбея.</li>
+		    <li class="maptweak">Добавил остутсвующие пакеты крови в настенный шкавчик с О- группой крови.</li>
+      </ul>
+	  
+    <h2 class="date">10 May 2018</h2>
+      <h3 class="author">hekko4 updated:</h3>
+      <ul class="changes bgimages16">
+        <li class="bugfix">Починил всевозможные дырки у труб на Exodus'e.</li>
+        <li class="bugfix">Починил провода возле атмосферного СМЕСа.</li>
+        <li class="bugfix">Починил спавнпоинт инженеров.</li>
+        <li class="bugfix">Дополнил мусорожигательную печь камерой\скраббером\вентом.</li>
+        <li class="bugfix">Заменил настенные зарядники в медбее на обычные, для батареек. Так же рядом положил отвёртку, чтобы можно было вытащить из дефибриллятора батарейку и зарядить\заменить её. Плюс две дополнительные батарейки для быстрой замены.</li>
+        <li class="bugfix">Дал роботехнику в свой хирургический набор прижигатель и продвинутый набор для травм.</li>
+        <li class="bugfix">Провёл вентиляционную систему в атмосферный отсек.</li>
+        <li class="bugfix">Заменил исходное значение для закачки\отдачи в СМЕСах на своё максимально-возможное. [250 кВт]</li>
+      </ul>
+
+    <h2 class="date">03 May 2018</h2>
+      <h3 class="author">Sinful Puppet updated:</h3>
+      <ul class="changes bgimages16">
+        <li class="imageadd">Добавлено мыло охранников.</li>
+        <li class="rscadd">Добавлено освещение в часовне.</li>
+        <li class="rscadd">Добавлен laber и мыло в бриг.</li>
+        <li class="rscadd">Добавлена кнопка Stop All Sounds в OOC.</li>
+        <li class="rscadd">Удалена бесполезная стена под лазаретом брига.</li>
+      </ul>
+   
+    <h2 class="date">02 May 2018</h2>
+      <h3 class="author">Sinful Puppet updated:</h3>
+      <ul class="changes bgimages16">
+        <li class="bugfix">Удален дубликат двери в техах.</li>
+        <li class="bugfix">Все врачи теперь могут брать медицинскую разгрузку в лоаудауте.</li>
+        <li class="bugfix">Сигареты теперь горят нормально.</li>
+      </ul>
+	 
+    <h2 class="date">29 April 2018</h2>
+      <h3 class="author">Epicus updated:</h3>
+      <ul class="changes bgimages16">
+        <li class="rscadd">Расам добавлена система бодибилдов - теперь у всех могут быть разные пропорции. Пока все по стандарту, но расы с 4 руками не за горами.</li>
+        <li class="rscadd">У человеческих трапов теперь 3 боди-билда: один обычный, среднего телосложения и два тонких.</li>
+        <li class="bugfix">Стандартным расам все починил - теперь у них никакие хвосты и торсы не отваливаются. Все работает через систему боди-билдов. Для захода пока не включены - включим как убедимся, что боди-билды на человеках нормально работают.</li>
+      </ul>
+    
+    <h2 class="date">14 April 2018</h2>
+      <h3 class="author">Epicus updated:</h3>
+      <ul class="changes bgimages16">
+        <li class="rscadd">Окончательно отказались от ПаникБункера в пользу новой Epic Anti-Multiaccount System. Теперь можно зайти на сервер без администраторов. Новички, добро пожаловать!</li>
+        <li class="tweak">Требования для включения мага или нинзи повышены с 1 игрока до 7.</li>
+      </ul>
+      <h3 class="author">Rampo and Plin updated:</h3>
+      <ul class="changes bgimages16">
+        <li class="tweak">Отключили голосование за карту и вернули назад коробку. Баги нашли и пофиксили - оставим карту для ивентов.</li>
+      </ul>
+
+    <h2 class="date">10 April 2018</h2>
+      <h3 class="author">MoonMen122 updated:</h3>
+      <ul class="changes bgimages16">
+        <li class="tweak">Добавил ботинки шахтерам.</li>
+        <li class="tweak">Перевод галлюцинаций от лсд и других эмоутов на русский.</li>
+      </ul>
+      <h3 class="author">Rampo updated:</h3>
+      <ul class="changes bgimages16">
+        <li class="bugfix">Различной степени тяжести мапфиксы, они слишком мелкие и их слишком много, чтобы перечислять их.</li>
+        <li class="tweak">Убрал одну из позиций детектива. Хватит казуальщины, ищите напарников среди остального персонала.</li>
+      </ul>
+
+    <h2 class="date">9 April 2018</h2>
+      <h3 class="author">Plin updated:</h3>
+      <ul class="changes bgimages16">
+        <li class="bugfix">Фикс бага отлетающих от подов полов.</li>
+        <li class="bugfix">Фикс бага спавна антагонистов на станции.</li>
+        <li class="tweak">Изменение параметров эммитеров, теперь поля сингулярности работают нормально.</li>
+      </ul>
+
+    <h2 class="date">8 April 2018</h2>
+      <h3 class="author">Plin updated:</h3>
+      <ul class="changes bgimages16">
+        <li class="rscadd">Ввел ротацию карт. Пока находится в тестовом режиме.</li>
+        <li class="bugfix">Фикс невидимых аирлоков в медотсеке и РнД.</li>
+      </ul>
+      <h3 class="author">Rampo updated:</h3>
+      <ul class="changes bgimages16">
+        <li class="rscadd">Добавил новую карту станции, переделанную тюремку. Пока находится в тестовом режиме.</li>
+        <li class="tweak">Первая стадия фиксов ангарности: изменил восточный медбей, коридор инженерки, восточный бриг, ядро ИИ.</li>
+      </ul>
+
+    <h2 class="date">6 April 2018</h2>
+      <h3 class="author">Epicus updated:</h3>
+      <ul class="changes bgimages16">
+        <li class="rscadd">Вернули огромное количество новых режимов с бея и различных комбинаций старых режимов.</li>
+        <li class="tweak">Голосование за режим отключено. Теперь он всегда Secret, в который включены все режимы с различными вероятностями.</li>
+        <li class="tweak">Убрал подсказку о возможных режимах после объявления Secret.</li>
+        <li class="bugfix">Починил Force Secret. Да, теперь режим раунда - сюрприз даже для опытных игроков.</li>
+      </ul>
+
+    <h2 class="date">3 April 2018</h2>
+      <h3 class="author">Epicus updated:</h3>
+      <ul class="changes bgimages16">
+        <li class="rscadd">Новая система отсеивания мультиаккаунтов вместо паникбункера. Пока в тестовом режиме.</li>
+      </ul>
+
+      <h3 class="author">Dnivji and Guap6512 updated:</h3>
+      <ul class="changes bgimages16">
+        <li class="bugfix">Вернули ghost в криослиппер. Из-за бага бьонда в меню появляется только после перезапуска клиента (можно также использовать через консоль). Починим позже.</li>
+      </ul>
+
+      <h3 class="author">Rampo updated:</h3>
+      <ul class="changes bgimages16">
+        <li class="tweak">Убраны скафандры из синих шкафов. Теперь они появляются в них с небольшим шансом.</li>
+      </ul>
+
+    <h2 class="date">24 March 2018</h2>
+      <h3 class="author">MalinaBoy updated:</h3>
+      <ul class="changes bgimages16">
+		    <li class="rscadd">Добавил гетто</li>
+		    <li class="rscadd">Добавил обычные лестницы, чтобы по ним можно было таскать предметы.</li>
+		    <li class="rscadd">Дополнения к основной карте, всякие таблички</li>
+		    <li class="imageadd">Изменил спрайты шлюзов РнД, астероида, медбея</li>
+		    <li class="bugfix">Куча различных фиксов по карте, начиная с консоли на мостике и заканчивая трубами в арсенале.</li>
+		    <li class="bugfix">Добавил дополнительные зоны на основном уровне, чтобы энергия работала нормально</li>
+      </ul>
+	  
+	    <h3 class="author">BombanyTI updated:</h3>
+      <ul class="changes bgimages16">
+        <li class="rscadd">Добавил донат-панель.</li>
+		    <li class="tweak">Теперь можно выливать жидкость из стакана с помощью намерения Harm.</li>
+      </ul>
+	
+    <h2 class="date">23 March 2018</h2>
+      <h3 class="author">Epicus updated:</h3>
+      <ul class="changes bgimages16">
+        <li class="tweak">Выпилил <s>ходьбу</s> бег боком.</li>
+        <li class="tweak">Выпилил возможность гостаться, будучи живым, ибо нефиг выходить из тела в камере со сроком 10 минут или поранив ногу. Играйте до конца. В исключительных случаях пишите в АХ.</li>
+      </ul>
+
+    <h2 class="date">22 March 2018</h2>
+      <h3 class="author">Plin updated:</h3>
+      <ul class="changes bgimages16">
+        <li class="bugfix">Починил прозрачные халаты ученых.</li>
+      </ul>
+
+      <h3 class="author">BombanyTI and NyanCommisar updated:</h3>
+      <ul class="changes bgimages16">
+        <li class="imageadd">Добавили кучу новых спрайтов, поменяли какие-то старые.</li>
+      </ul>
+
+    <h2 class="date">21 March 2018</h2>
+      <h3 class="author">Epicus updated:</h3>
+      <ul class="changes bgimages16">
+        <li class="bugfix">Из холстера теперь можно достать оружие кликом.</li>
+        <li class="bugfix">Клик рукой по одежде теперь работает только с тем аксессуаром, который был одет последним (если одеть холстер после разгрузки, то разгрузку не открыть!)</li>
+        <li class="bugfix">Клик любым предметом по одежде сам найдет с чем взаимодействовать, независимо от последовательности надевания.</li>
+        <li class="bugfix">Починил кодировки в PDA Notes</li>
+        <li class="bugfix">Починил кодировки в различных консольных записях</li>
+      </ul>
+
+    <h2 class="date">19 March 2018</h2>
+      <h3 class="author">Epicus updated:</h3>
+      <ul class="changes bgimages16">
+        <li class="tweak">Дефолтный FPS на клиенте поставил на 60 - будет работать на новых персонажах. Для старых выставьте руками во вкладке Global сетапа, иначе будут заметные рывки.</li>
+        <li class="bugfix">Починили баг из-за которого нельзя было зайти некоторыми персонажами с Блю. Вместо этого спавнились голые клоны.</li>
+        <li class="bugfix">Починил баг security glasses. Они показывали второй Security Status, вместо Security Note.</li>
+        <li class="bugfix">Убрал ранги с Торча из записи сотрудника.</li>
+      </ul>
+
+    <div class="merge">
+      <h3 class="mergeAuthor">Epicus merged Bay12</h3>
+
+      <h2 class="date">17 March 2018</h2>
+      <h3 class="author">Sbotkin updated:</h3>
+      <ul class="changes bgimages16">
+        <li class="tweak">Плотная одежда теперь защищает от жала Чейнджлинга.</li>
+        <li class="tweak">Биосьюты теперь плотные.</li>
+      </ul>
+			<h3 class="author">afterthought updated:</h3>
+			<ul class="changes bgimages16">
+				<li class="bugfix">Шприцемет Одиссея теперь может синтезировать реагенты.</li>
+				<li class="bugfix">Починили выскальзывание из меха во время ивента нарушения гравитации.</li>
+			</ul>
+			<h3 class="author">mustafakalash updated:</h3>
+			<ul class="changes bgimages16">
+				<li class="rscadd">Теперь вы можете написать что-то у человека на лбу с помощью ручки, мелка или помады (используйте намерение Help!). Смыть надписи можно в душе или в раковине, если голова отделена от тела.</li>
+				<li class="bugfix">Больше нельзя применять помаду к тому, у чего нет губ.</li>
+			</ul>
+			<h3 class="author">sabiram updated:</h3>
+			<ul class="changes bgimages16">
+				<li class="rscadd">Король Козлов теперь может войти во вторую стадию в драке.</li>
+			</ul>
+
+			<h2 class="date">13 March 2018</h2>
+			<h3 class="author">chinsky & sabiram updated:</h3>
+			<ul class="changes bgimages16">
+				<li class="rscadd">Пояса и полотенца теперь можно носить и без одежды.</li>
+			</ul>
+			<h3 class="author">mkalash updated:</h3>
+			<ul class="changes bgimages16">
+				<li class="rscadd">Добавлены новые безопасные энергопистолеты, которые требуют регистрации пользователя и блокируются в стан-режиме без дополнительной авторизации.</li>
+				<li class="rscadd">В стан-револьверы добавлен шок-режим с подобной механикой.</li>
+			</ul>
+
+      <h2 class="date">12 March 2018</h2>
+			<h3 class="author">chaoko99 updated:</h3>
+      <ul class="changes bgimages16">
+				<li class="rscadd">Кремация теперь занимает время. Процесс кремации живого человека теперь слишком пугающий.</li>
+				<li class="rscadd">Теперь можно вырваться из крематория, если вы успеете. С таким же успехом можно успеть вытащить кого-то другого оттуда.</li>
+				<li class="bugfix">Новый спрайт крематория для активного состояния.</li>
+				<li class="imageadd">Небольшие изменения спрайта полки крематория и холодильника из морга.</li>
+			</ul>
+
+      <h3 class="author">chaoko99 updated:</h3>
+			<ul class="changes bgimages16">
+				<li class="rscadd">Оверлей научных очков теперь показывает уровни изучения, а также состав предметов. Также показывает содержимое различных контейнеров для реагентов (стаканы, бургеры, пакеты для крови).</li>
+			</ul>
+
+      <h3 class="author">sabiram updated:</h3>
+			<ul class="changes bgimages16">
+				<li class="rscadd">Различные животные, наиболее заметные враги человека, теперь могут сбежать из сетки.</li>
+			</ul>
+
+      <h3>Other changes:</h3>
+      <ul class="changes bgimages16">
+        <li class="rscadd">При полете шаттла, теперь вы можете улететь по инерции в другую сторону.</li>
+        <li class="tweak">Небольшие изменения повреждений мозга.</li>
+        <li class="bugfix">Пофиксили разные ошибки рантайма.</li>
+        <li class="bugfix">Починили баг, связанный с поломкой камеры.</li>
+        <li class="bugfix">Починили баг, связанный с поломкой камеры.</li>
+      </ul>
+    </div>
+
+	  <h2 class="date">18 March 2018</h2>
+      <h3 class="author">MalinaBoy updated:</h3>
+      <ul class="changes bgimages16">
+        <li class="tweak">Атмосферный отсек перемещен на основной уровень станции.</li>
+        <li class="tweak">Первая стадия расширений техтоннелей под станцией.</li>
+      </ul>
+      <h3 class="author">BombanyTI updated:</h3>
+      <ul class="changes bgimages16">
+        <li class="rscadd">Огромное количество новых причесок.</li>
+        <li class="rscadd">Куча разной одежды.</li>
+		<li class="rscadd">Новые перчатки в лоадауте офицера.</li>
+		<li class="rscadd">Новые вещи в шкафах врача и бармена.</li>
+      </ul>
+
+      <h2 class="date">17 March 2018</h2>
+      <h3 class="author">Epicus updated:</h3>
+      <ul class="changes bgimages16">
+        <li class="rscadd">Новый мини-ивент, основанный на предыстории, который может запустить администратор.</li>
+        <li class="rscadd">Фракции, выбираемые при создании персонажа, теперь соответствуют предыстории. Ваши старые фракции должны автоматически сброситься на NanoTrasen.</li>
+        <li class="bugfix">Починил кодировку в ПДА.</li>
+      </ul>
+
+      <h2 class="date">13 March 2018</h2>
+      <h3 class="author">Rampo updated:</h3>
+      <ul class="changes bgimages16">
+        <li class="rscadd">Убран критический промах при выстреле.</li>
+        <li class="rscadd">Частично интегрирована предыстория Onyx.</li>
+      </ul>
+      <h3 class="author">jammer312 updated:</h3>
+      <ul class="changes bgimages16">
+        <li class="rscadd">Частичная интеграция с дискордом.</li>
+      </ul>
+
+      <h2 class="date">12 March 2018</h2>
+      <h3 class="author">BombanyTI updated:</h3>
+      <ul class="changes bgimages16">
+        <li class="rscadd">Ящики теперь можно взламывать мультитуллом.</li>
+        <li class="rscadd">У всех киборгов теперь есть лом.</li>
+        <li class="bugfix">Починили толстые руки</li>
+        <li class="bugfix">Починили прозрачные спрайты конечностей из автомата робототехника</li>
+        <li class="bugfix">Починили нижнее белье трапов</li>
+      </ul>
+
+      <h2 class="date">11 March 2018</h2>
+			<h3 class="author">Epicus updated:</h3>
+			<ul class="changes bgimages16">
+				<li class="rscadd">Мерж различных фич с Baystation 12 c 20 февраля до 10 марта с переводом изменений (смотри ниже).</li>
+        <li class="bugfix">Мерж кучи фиксов ошибок, приводивших к вылету игры.</li>
+        <li class="bugfix">Мерж фикса сдвига спрайта Unathi</li>
+        <li class="bugfix">Мерж фикса спрайта Tajara</li>
+        <li class="bugfix">Мерж кучи других мелких фиксов</li>
+			</ul>
+
+      <h2 class="date">10 March 2018</h2>
+			<h3 class="author">BombanyTI updated:</h3>
+			<ul class="changes bgimages16">
+				<li class="bugfix">Фикс хоткеев, автохисса, телекомов, отвалившихся спрайтов, лоадаута и несколько мелких правок карты</li>
+			</ul>
+
+      <h2 class="date">10 March 2018</h2>
+      <h3 class="author">Rebruiza updated:</h3>
+      <ul class="changes bgimages16">
+        <li class="soundadd">Теперь у APC проигрывается нормальный звук при разрядке.</li>
+        <li class="soundadd">Теперь в техтоннелях свой эмбиент.</li>
+        <li class="soundadd">Новый звук у пожарных тревог.</li>
+        <li class="soundadd">Новый звук у шлюзов и болтов.</li>
+        <li class="soundadd">Новый звук у Blast doors.</li>
+        <li class="soundadd">Новый звук у различных карманов костюмов.</li>
+        <li class="soundadd">Новый звук для шкафов.</li>
+        <li class="soundadd">Новый звук касания металлических стен.</li>
+        <li class="tweak">Повышена громкость звука включения света.</li>
+      </ul>
+
+      <h3 class="author">Techhead0 updated:</h3>
+      <ul class="changes bgimages16">
+        <li class="rscadd">Появилась возможность восстанавливать герметичность скафандра с помощью изоленты. Либо кликните по самому костюму, либо нацельтесь на грудь и щелкните по другому мобу. Осторожно, дополнительный урон может сбить заплатку.</li>
+      </ul>
+
+      <h2 class="date">06 March 2018</h2>
+      <h3 class="author">thefrostycoder updated:</h3>
+      <ul class="changes bgimages16">
+        <li class="bugfix">Починили случайные капли крови на шлюзах.</li>
+      </ul>
+
+      <h2 class="date">05 March 2018</h2>
+      <h3 class="author">thefrostycoder updated:</h3>
+      <ul class="changes bgimages16">
+        <li class="rscadd">Теперь в чате явно видно название языка, который вы слышите и понимаете.</li>
+      </ul>
+
+			<h2 class="date">04 March 2018</h2>
+			<h3 class="author">Banditoz updated:</h3>
+			<ul class="changes bgimages16">
+				<li class="tweak">У генератор щита можно экстренно отключить, взломав его.</li>
+				<li class="tweak">Время перезарядки щита после экстенного отключения уменьшено.</li>
+				<li class="tweak">Теперь экстренное отключение щита вызывает ЭМИ, зависящий от его заряда.</li>
+			</ul>
+
+			<h2 class="date">27 February 2018</h2>
+			<h3 class="author">sabiram updated:</h3>
+			<ul class="changes bgimages16">
+				<li class="rscadd">Теперь можно развеевать проклятые полы культа с помощью null rod, также как и стены.</li>
+				<li class="tweak">Maw creatures, ghost dogs, faithless и shades получают дополнительный урон от null rod.</li>
+				<li class="tweak">null rod теперь называется null sceptre и стал четь больше в размерах.</li>
+			</ul>
+
+			<h2 class="date">25 February 2018</h2>
+			<h3 class="author">Hubblenaut updated:</h3>
+			<ul class="changes bgimages16">
+				<li class="tweak">Схемы медицинского сканнера теперь работает в зоне видимости.</li>
+				<li class="bugfix">Изоленту теперь опять можно поднять.</li>
+			</ul>
+
+			<h2 class="date">22 February 2018</h2>
+			<h3 class="author">Hubblenaut updated:</h3>
+			<ul class="changes bgimages16">
+				<li class="bugfix">Ивент потери гравитации больше не роняет людей, которые итак находятся в космосе.</li>
+			</ul>
+
+			<h3 class="author">chaoko99 updated:</h3>
+			<ul class="changes bgimages16">
+				<li class="rscadd">Щелчек по столу с зажатым контролом перевернет стол.</li>
+			</ul>
+
+			<h2 class="date">19 February 2018</h2>
+			<h3 class="author">Techhead0 updated:</h3>
+			<ul class="changes bgimages16">
+				<li class="bugfix">ПДА больше не показывает количество Форона.</li>
+			</ul>
+		</div>
+</td></tr></table>
+</body>
+</html>
